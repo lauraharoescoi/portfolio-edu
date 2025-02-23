@@ -1,14 +1,14 @@
 {
     "television": [
       {
-        "url": "https://www.youtube.com/watch?v=ZHgyQGoeaB0",
+        "url": "https://www.youtube.com/embed/ZHgyQGoeaB0",
         "title": "OIIA OIIA CAT",
         "description": "Gato dando vueltas"
       },
       {
-        "url": "https://www.youtube.com/watch?v=7iN7GG3oXbA",
-        "title": "Orange cat behavior",
-        "description": "Gatos naranjas haciendo cosas de gatos naranjas"
+        "url": "https://www.youtube.com/embed/b7iCe5O-gYM",
+        "title": "Sigma boy",
+        "description": "Sigma sigma boy, sigma boy, sigma boy"
       }
     ],
     "cortos": [

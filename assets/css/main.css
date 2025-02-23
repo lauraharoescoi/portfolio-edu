@@ -115,5 +115,25 @@ body, h1, h2, h3, h4, h5, h6 {
     color: #ccc;
   }
   
+  /* Grid de Videos: 2 columnas en escritorio, 1 columna en móvil */
+  .video-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .video-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  /* Opcional: estilos para cada video card */
+  .video-card {
+    background: #000;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
   
   
