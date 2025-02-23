@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
   
   function loadVideos() {
-    fetch('../assets/data/videos.json')
+    fetch('assets/data/videos.json')
       .then(response => response.json())
       .then(data => {
         // Se asume que en el JSON los arrays se llaman "television", "cortos" y "edicionVideos"
@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
   
   function loadPhotos() {
-    fetch('../assets/data/photos.json')
+    fetch('assets/data/photos.json')
       .then(response => response.json())
       .then(data => {
         const photoGrid = document.getElementById("photoGrid");

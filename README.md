@@ -38,15 +38,15 @@ Para actualizar las imágenes del apartado **Fotografía**:
    ```json
    {
      "photos": [
-       "../assets/images/foto1.jpg",
-       "../assets/images/foto2.jpg",
-       "../assets/images/foto3.jpg",
-       "../assets/images/foto4.jpg"
+       "assets/images/foto1.jpg",
+       "assets/images/foto2.jpg",
+       "assets/images/foto3.jpg",
+       "assets/images/foto4.jpg"
      ]
    }
    ```
 
-   *Nota:* Las rutas son relativas al archivo HTML (que se encuentra en la carpeta `es/`), por lo que se utiliza `../assets/images/...`.
+   *Nota:* Las rutas son relativas al archivo HTML (que se encuentra en la carpeta `es/`), por lo que se utiliza `assets/images/...`.
 
 3. **Visualización:**  
    El CSS ya está configurado para mostrar las imágenes en un "feed" similar a Instagram. En escritorio se mostrará en una grid de 3 columnas, y en dispositivos móviles se apilarán en una sola columna.
