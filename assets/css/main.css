@@ -1,0 +1,119 @@
+/* main.css */
+
+/* Fuentes y estilos generales */
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .w3-row-padding img {
+    margin-bottom: 12px;
+  }
+  
+  /* Estilos para la barra lateral */
+  .w3-sidebar {
+    width: 120px;
+    background: #222;
+  }
+  
+  /* Ajuste del margen para el contenido principal */
+  #main {
+    margin-left: 120px;
+  }
+  
+  /* Responsive: sin margen en pantallas pequeñas */
+  @media only screen and (max-width: 600px) {
+    #main {
+      margin-left: 0;
+    }
+  }
+  
+  /* Estilos específicos para el Portfolio */
+  .portfolio-item {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    /* Forzamos una proporción de 16:9 */
+    aspect-ratio: 16 / 9;
+  }
+  
+  .portfolio-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Overlay siempre visible con fondo semitransparente */
+  .portfolio-item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Fondo base oscuro */
+    display: flex;
+    align-items: center;
+    text-align: center; 
+    justify-content: center;
+    transition: background 0.3s ease;
+  }
+  
+  .portfolio-item:hover .overlay {
+    background: rgba(0, 0, 0, 0.8); /* Se oscurece al pasar el ratón */
+  }
+  
+  .portfolio-item .overlay .text {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  /* Grid de Portfolio: 2 columnas en escritorio, 1 columna en móvil */
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .portfolio-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+/* Grid de Fotos: 3 columnas en escritorio, 1 columna en móvil */
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .photo-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  /* Para que las imágenes se muestren cuadradas y en tamaño grande */
+  .photo-grid img {
+    width: 100%;
+    aspect-ratio: 1 / 1; /* Mantiene la imagen cuadrada */
+    object-fit: cover;
+  }
+  
+  .video-card {
+    margin-bottom: 24px;
+  }
+  
+  .video-card h4 {
+    margin: 8px 0 4px;
+    color: #fff;
+  }
+  
+  .video-card p {
+    margin: 0;
+    color: #ccc;
+  }
+  
+  
+  

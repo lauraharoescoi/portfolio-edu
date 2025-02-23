@@ -1,0 +1,39 @@
+{
+    "television": [
+      {
+        "url": "https://www.youtube.com/embed/VIDEO_ID1",
+        "title": "Título Televisión 1",
+        "description": "Descripción del video de televisión 1."
+      },
+      {
+        "url": "https://www.youtube.com/embed/VIDEO_ID2",
+        "title": "Título Televisión 2",
+        "description": "Descripción del video de televisión 2."
+      }
+    ],
+    "cortos": [
+      {
+        "url": "https://www.youtube.com/embed/VIDEO_ID3",
+        "title": "Título Cortos 1",
+        "description": "Descripción del video de cortos 1."
+      },
+      {
+        "url": "https://www.youtube.com/embed/VIDEO_ID4",
+        "title": "Título Cortos 2",
+        "description": "Descripción del video de cortos 2."
+      }
+    ],
+    "edicionVideos": [
+      {
+        "url": "https://www.youtube.com/embed/VIDEO_ID5",
+        "title": "Título Edición 1",
+        "description": "Descripción del video de edición 1."
+      },
+      {
+        "url": "https://www.youtube.com/embed/VIDEO_ID6",
+        "title": "Título Edición 2",
+        "description": "Descripción del video de edición 2."
+      }
+    ]
+  }
+  
